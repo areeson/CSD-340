@@ -4,5 +4,3 @@
 
 * Professor Melony Sue Sampson
 * Andrew P. Reeson
-
-\* https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#h1 \*
