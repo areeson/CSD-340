@@ -2,5 +2,5 @@
 
 ## Contributors
 
-⋅⋅* Professor Melony Sue Sampson
-⋅⋅* Andrew P. Reeson
+* Professor Melony Sue Sampson
+* Andrew P. Reeson
