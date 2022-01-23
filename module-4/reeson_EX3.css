@@ -3,7 +3,14 @@ h1 {
     font-family: "Oswald", Verdana, Arial, sans-serif;
 }
 
-#side-by-side {
+#side1 {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+}
+
+#side2 {
     display: inline-block;
     width: 45%;
     vertical-align: top;
@@ -31,14 +38,15 @@ li {
     font-weight: 300;
 }
 
-ol {
+#side1 {
     border: 1px solid red;
     border-radius: 15px;
     padding: 10px;
     list-style-position: inside;
+    margin-right: 20px;
 }
 
-ul {
+#side2 {
     border: 1px dashed red;
     border-radius: 15px;
     padding: 10px;
