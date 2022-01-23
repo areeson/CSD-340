@@ -1,0 +1,52 @@
+html {
+    background-color: #ede5d8aa;
+}
+
+body {
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+}
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    background-color: #eadecf;
+    color: black;
+    border: 1px solid #D6a800;
+    padding: 10px;
+    font-weight: 500;
+}
+
+a {
+    color: #1b1208;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b9894b;
+}
+
+a:visited {
+    color: #876b46;
+}
+
+
+li {
+    font-weight: 300;
+}
+
+ul {
+    border-style: solid;
+    border-color: #ece2d5;
+    border-radius: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
