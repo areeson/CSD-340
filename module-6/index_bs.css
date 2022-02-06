@@ -1,0 +1,80 @@
+/* Main Page */
+html {
+    background-color: #ede5d8aa;
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+}
+
+#container {
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+/* Nav Bar */
+li {
+    font-weight: 300;
+    font-size: 18px;
+    display: inline-block;
+}
+
+nav {
+    background-color: #eadecf;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #b9894b;
+}
+
+li a:active {
+    color: black;
+}
+
+a {
+
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Images */
+#image-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 250px;
+}
+
+
+/* Fonts */
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: "Oswald";
+}
+
+p {
+    text-align: center;
+    font-weight: 300;
+    font-family: Arial;
+}
