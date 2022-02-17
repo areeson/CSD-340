@@ -1,0 +1,135 @@
+/* Andrew Reeson */
+/* 2/16/21 */
+/* Build a Webpage Exercise, Part 6 */
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    margin-top: 0px;
+}
+
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+body {
+    margin: 0;
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #3c275a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+/* navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #4F3674;
+    border-bottom: solid 15px #D6A800;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+/* Movies */
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4F3674;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #3c275a;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: auto;
+    left: 0;
+}
+
+.left {
+    flex: 1 1 200px;
+}
+
+.item {
+    display: inline-block;
+}
+
+footer ul {
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: white;
+}
