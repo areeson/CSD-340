@@ -1,0 +1,305 @@
+/* Andrew Reeson */
+/* 3/5/22 */
+/* Final: HTML5 Landing Page */
+
+
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quattrocento:wght@400;700&display=swap);
+
+/* Main Page */
+html {
+    background-color: #ede5d8aa;
+}
+
+#page-container {
+    position: relative;
+    margin-top: 0px;
+}
+
+#content-wrap {
+    padding-bottom: 5rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Nav Bar */
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+#nav li {
+    font-weight: 300;
+    font-size: 18px;
+    display: inline-block;
+}
+
+#nav a {
+    text-align: center;
+    text-decoration: none;
+    font-family: Oswald;
+}
+
+#nav li a:hover {
+    color: #b9894b;
+}
+
+#nav li a:active {
+    color: black;
+}
+
+#nav a {
+
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Pic/text side by side */
+.aligned {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    padding: 40px;
+    padding-right: 10%;
+}
+
+img {
+    height: 460px;
+}
+
+
+/* Contact Form */
+.contact-form {
+    padding-top: 25px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 50px;
+}
+
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+input[type=submit] {
+	background: #64B5F6;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+    width: 100%;
+
+}
+
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: whitesmoke;
+}
+
+input[type=submit]:hover {
+	background: #2196F3;
+}
+
+/* Home Page Images */
+#image-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+#image-gallery img {
+    height: 250px;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: .75em;
+}
+
+/* Hobbies Section*/
+.aligned {
+    display: flex;
+    align-items: center;
+}
+
+.aligned span {
+    padding: 40px;
+}
+
+.aligned img {
+    height: 500px;
+    box-shadow: 5px 10px 15px 0px #b9894b;
+    float: right;
+}
+
+/* Fonts */
+h1 {
+    text-align: center;
+    font-family: Oswald;
+    background-color: #eadecf;
+}
+
+header h1 {
+    font-weight: 300;
+    font-size: 50px;
+    font-family: Oswald;
+    margin: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: Oswald;
+}
+
+#contact span {
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: Oswald;
+}
+
+p {
+    text-align: center;
+    font-weight: 300;
+    font-family: Arial;
+}
+
+/* Footer */
+footer {
+    background-color: #eadecf;
+    font-family: Oswald;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding-bottom: 10px;
+    position: absolute;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer li {
+    font-weight: 300;
+    font-size: 15px;
+    display: inline-block;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+footer li a:active {
+    color: black;
+}
+
+footer a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: #b9894b;
+}
+
+footer p {
+    padding-bottom: 10px;
+    font-size: 13px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+/* Grid */
+.card {
+    padding-top: 17px;
+}
+
+th {
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+td {
+    padding: 10px 10px 18px;
+    width: 33%;
+}
+
+#p {
+    font-family: Arial;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+label {
+    font-family: Arial;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    box-shadow: 5px 3px 18px 0px #b9894b;
+    width: auto;
+    height: auto;
+}
+
+#groupon {
+    width: 90%;
+}
+
+#bellevue {
+    width: 80%;
+}
+
+#rs {
+    width: 65%;
+}
